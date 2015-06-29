@@ -1,0 +1,22 @@
+{
+  "name": "Pokemon",
+  "version": "1.0.0",
+  "description": "ejercicio para aprender react con Pokemons",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app.js > build.js -t babelify"
+  },
+  "keywords": [
+    "react",
+    "frontend",
+    "pokemon"
+  ],
+  "author": "Alejandro Medina Robles",
+  "license": "MIT",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "react": "^0.13.3",
+    "uid": "0.0.2"
+  }
+}
