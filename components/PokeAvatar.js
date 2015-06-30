@@ -11,8 +11,8 @@ import React from 'react'; // Importamos react usando npm install --save react e
           // esta es una api REST http://pokeapi.co/media/img/718.png pero llega ahasta el 718
         }
         render() {
-          return <div className="avatar">
-            <img src={this.url} />
+          return <div className="avatar-container">
+            <img src={this.url} className="avatar" />
           </div>
         }
       }
